@@ -1,14 +1,15 @@
 <html>
-<TITLE>Made You Look</TITLE>
-<head>
-<script>
-function show(shown, hidden) {
-  document.getElementById(shown).style.display='block';
-  document.getElementById(hidden).style.display='none';
-  return false;
-}
-</script>
-</head>
+	<TITLE>Made You Look</TITLE>
+	<head>
+		<link rel="stylesheet" href="main.css" />
+		<script>
+		function show(shown, hidden) {
+		  document.getElementById(shown).style.display='block';
+		  document.getElementById(hidden).style.display='none';
+		  return false;
+		}
+		</script>
+	</head>
 <body style="background-color:powderblue;">
 
     
@@ -19,6 +20,14 @@ function show(shown, hidden) {
 	<p style="text-align:center;">
 	<b>(bold text) My email address can be found <A HREF="mailto:ehluu@ucsc.edu">here</A> </b>
 	<br>
+	<br>
+	<div class="forum-post">
+		<a href="#hide" class="hide btn" id="hide">Show spoiler</a>
+		<a href="#show" class="show btn" id="show">Hide spoiler</a>
+		<div class="spoiler">
+		  <p class="spoiler-content">People die when they are killed!</p>
+		</div>
+	</div>
 	<br>
 	<a href="https://www.youtube.com/watch?v=fMdGSTE4-Zk"><img src="https://i.imgur.com/lkHaqfv.jpg" title="LeBron James caught calling himself a Touhou fan after listening to Night of Nights" height="450" width="600" /></a>
 	<br>
